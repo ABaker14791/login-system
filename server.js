@@ -72,6 +72,10 @@ app.post("/register", checkNotAuthenticated, async (req, res) => {
   console.log(users);
 });
 
+app.get("/content", checkAuthenticated, (req, res) => {
+  res.render("content.ejs");
+});
+
 app.delete("/logout", (req, res) => {
   req.logout();
   res.redirect("/login");

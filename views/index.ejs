@@ -1,5 +1,11 @@
 <link href="/css/style.css" rel="stylesheet" type="text/css" />
-<h1>Hi <%= name %></h1>
-<form action="/logout?_method=DELETE" method="POST">
-  <button type="submit">Log Out</button>
-</form>
+<div class="container">
+  <h1 class="dashboard-title">Hi <%= name %></h1>
+  <p>Welcome, this page is your dashboard.</p>
+  <form action="/content">
+    <button type="submit" class="btn-main">View our content page.</button>
+  </form>
+  <form action="/logout?_method=DELETE" method="POST">
+    <button class="btn-logout" type="submit">Log Out</button>
+  </form>
+</div>

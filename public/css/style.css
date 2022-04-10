@@ -53,3 +53,35 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
+
+/* Dash board styles */
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.dashboard-title {
+  margin: 20px 0;
+}
+
+.btn-main {
+  padding: 12px 20px;
+  margin-top: 20px;
+  background-color: rgb(157, 33, 210);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-logout {
+  padding: 12px 20px;
+  margin-top: 20px;
+  background-color: rgb(169, 169, 169);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
